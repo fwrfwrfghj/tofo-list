@@ -9,7 +9,6 @@
 	<h2>Some Text</h2>
 	<c:forEach items="${notes}" var="note">
 	<p>${note.id}</p>
-        <a href="/app/${note.app.id}/note/${note.id}">"${note.title}"</a>
     </c:forEach>
 </body>
 </html>
